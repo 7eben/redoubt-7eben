@@ -1,13 +1,13 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: Redoubt 7eben
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: In the trenches of development. At the barricades of operations.
 
 # Your name to show in the footer
-author: Some Person
+author: Zebensui Méndez
 
 # --- List of links in the navigation bar --- #
 
@@ -39,9 +39,9 @@ round-avatar: true
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+#  facebook: deanattali
+  github: 7eben
+  twitter: 7eben
   rss: true
 #  reddit: yourname
 #  linkedin: daattali
@@ -68,7 +68,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "7eben.github.io"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -119,7 +119,7 @@ footer-link-col: "#404040"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "7eben"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -164,7 +164,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Atlantic/Canary"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
