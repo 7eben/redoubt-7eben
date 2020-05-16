@@ -13,10 +13,6 @@ author: Zebensui Méndez
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -38,7 +34,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
+#  email: "someone@example.com"
 #  facebook: deanattali
   github: 7eben
   twitter: 7eben
@@ -82,12 +78,12 @@ excerpt_length: 50
 
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
-navbar-border-col: "#EAEAEA"
+navbar-border-col: "#ff00dc"
 page-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
+link-col: "#ff00dc"
+hover-col: "#ff00dc"
+footer-col: "#8a8a8a"
+footer-text-col: "#dad0d0"
 footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
@@ -201,6 +197,9 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  # ZMZ: Added this line - https://github.com/jekyll/jekyll/issues/5267 -
+  - vendor
+
 
 plugins:
   - jekyll-paginate

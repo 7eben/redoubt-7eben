@@ -2,7 +2,7 @@
 layout: null
 ---
 
-@import url("pygment_highlights.css");
+@import url("pygment_monokai.css");
 
 /* --- General --- */
 
@@ -462,6 +462,11 @@ footer .footer-custom-content {
   font-weight: 300;
   margin-bottom: 0.625rem;
 }
+
+.post-heading {
+  text-align: center;
+}
+
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
@@ -550,6 +555,10 @@ footer .footer-custom-content {
   }
 }
 /* --- Post and page headers --- */
+
+.blog-post {
+  text-align: justify !important; 
+}
 
 .intro-header {
   margin: 5rem 0 1.25rem;
@@ -805,6 +814,7 @@ pre {
   line-height: 1.5;
   border-radius: 0.25rem;
   padding: 0.59375rem;
+  color: #FFFFFF
 }
 .highlight pre {
   border: none;
@@ -812,8 +822,11 @@ pre {
   margin: 0;
 }
 .highlight > pre {
+  background-color: #242424;
+  /*
   background-image: linear-gradient(
     rgba(0,0,0,0.06), rgba(0,0,0,0.06) 1.5em, rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.03) 3em);
+  */
   background-size: auto 3em;
   background-position-y: 0.625rem;
   border: 1px solid rgba(0,0,0,0.1);
@@ -829,7 +842,7 @@ pre {
   margin: 0;
 }
 .highlight pre.lineno {
-  color: rgba(0,0,0,0.3);
+  color: rgba(133, 133, 133, 1);
   border-radius: 0;
   border-right: 2px solid #444;
 }
