@@ -196,5 +196,5 @@ three message
 ```
 
 
-That's all for now. That's all for now. Basically we replicated the getting started  of Strimzi documentation but we will continue to complicate our example in the following posts.
+That's all for now. Basically we replicated the getting started  of Strimzi documentation but we will continue to complicate our example in the following posts.
 
