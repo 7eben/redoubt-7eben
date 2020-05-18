@@ -2,11 +2,12 @@
 layout: post
 title: Authenticated external access to a Kafka cluster in Kubernetes (part 1)
 subtitle: Deploying Strimzi Operator
+share-img: /assets/img/kafka-k8s.png
 tags: [kafka, kubernetes, strimzi]
 comments: true
 ---
 
-Hi guys, welcome to my new and revamped blog!. I wan't boring you with unnecessary words in this blog. My only purpose is to share with you some experiences in the crazy *devops* world. And of course, I couldn't start without talking about Apache Kafka. I am going to open this blog with a series of posts about Kafka and Kubernetes. I hope you like it. Here we go!
+Hi guys, welcome to my new and revamped blog!. I don't want boring you with unnecessary words in this blog. My only purpose is to share with you some experiences in the development world and I am going to open this blog with a series of posts about Kafka and Kubernetes. Here we go!
 
 
 In this series of post  I will show you and easy way to have a Kafka cluster deployed in Kubernetes and getting access outside the cluster in authenticated way. This time I am going to assume that you have some knowledge about Kafka and Kubernetes. But I will try to explain it in the most basic way. 
