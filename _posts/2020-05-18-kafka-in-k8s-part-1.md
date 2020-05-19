@@ -10,7 +10,7 @@ comments: true
 Hi guys, welcome to my new and revamped blog!. I don't want to bore you with unnecessary words in this blog. My only purpose is to share with you some experiences in the development world and I am going to open this blog with a series of posts about Kafka and Kubernetes. Here we go!
 
 
-In this series of post  I will show you an easy way to have a Kafka cluster deployed in Kubernetes and getting access outside the cluster in an authenticated way. This time I am going to assume that you have some knowledge about Kafka and Kubernetes. But I will try to explain it in the most basic way. 
+In this series of posts  I will show you an easy way to have a Kafka cluster deployed in Kubernetes and getting access outside the cluster in an authenticated way. This time I am going to assume that you have some knowledge about Kafka and Kubernetes. But I will try to explain it in the most basic way. 
 
 
 We will use Strimzi for deploying Zookeeper and Kafka Broker instances. Also with Strimzi, we will configure external access to the cluster with an ingress controller. Also in our example, the communication from outside the cluster will be encrypted and authenticated, we will use mutual TLS to achieve that.
