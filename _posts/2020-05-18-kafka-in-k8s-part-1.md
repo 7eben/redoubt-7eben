@@ -40,7 +40,7 @@ So Strimzi is my choice.  The documentation is excellent and of course it is an 
 
 
 
-### Choice your cluster
+### Choose your cluster
 
 
 
