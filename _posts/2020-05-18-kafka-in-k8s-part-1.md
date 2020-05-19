@@ -7,13 +7,13 @@ tags: [kafka, kubernetes, strimzi]
 comments: true
 ---
 
-Hi guys, welcome to my new and revamped blog!. I don't want boring you with unnecessary words in this blog. My only purpose is to share with you some experiences in the development world and I am going to open this blog with a series of posts about Kafka and Kubernetes. Here we go!
+Hi guys, welcome to my new and revamped blog!. I don't want to bore you with unnecessary words in this blog. My only purpose is to share with you some experiences in the development world and I am going to open this blog with a series of posts about Kafka and Kubernetes. Here we go!
 
 
-In this series of post  I will show you and easy way to have a Kafka cluster deployed in Kubernetes and getting access outside the cluster in authenticated way. This time I am going to assume that you have some knowledge about Kafka and Kubernetes. But I will try to explain it in the most basic way. 
+In this series of post  I will show you an easy way to have a Kafka cluster deployed in Kubernetes and getting access outside the cluster in an authenticated way. This time I am going to assume that you have some knowledge about Kafka and Kubernetes. But I will try to explain it in the most basic way. 
 
 
-We will use Strimzi for deploy Zookeeper and Kafka Broker instances. Also with Strimzi, we will configure external access to the cluster with a ingress controller. Also in our example, the communication from outside the cluster must be encrypted and authenticate, we will use mutual TLS to achieve that.
+We will use Strimzi for deploying Zookeeper and Kafka Broker instances. Also with Strimzi, we will configure external access to the cluster with an ingress controller. Also in our example, the communication from outside the cluster will be encrypted and authenticated, we will use mutual TLS to achieve that.
 
 
 ### Why Strimzi
@@ -28,7 +28,7 @@ And continue says "*The Operator pattern aims to capture the key aim of a human 
 
 
 
-So, in colloquial language, it's like a little robot that controls some tedious task and make our lives easier. This is the main reason, but not the only one, I don't like [Helm](https://helm.sh/), it's not the same but I don't like it. I have my own reasons for that, but I leave it for a talk with beers.
+So, in colloquial language, it's like a little robot that controls some tedious task and makes our lives easier. This is the main reason, but not the only one, I don't like [Helm](https://helm.sh/), it's not the same but I don't like it. I have my own reasons for that, but I leave it for a talk with beers.
 
 
 
@@ -80,7 +80,7 @@ wget https://github.com/strimzi/strimzi-kafka-operator/releases/download/0.16.2/
 {:  .box-note }
 
 **Note:** 
-It may be that you prefer to apply K8s deployments without using *kubectl* directly, for example with *Gitops* tools. If you have a cluster and want to maintain a namespace for Kafka deployments, we should complete the definition of namespaces in manifests to avoid creating objects in the default namespace. An easy way for this, is to use [Kustomize](https://kustomize.io/).
+May be you prefer to apply K8s deployments without using *kubectl* directly, for example with *Gitops* tools. If you have a cluster and want to maintain a namespace for Kafka deployments, we should complete the definition of namespaces in manifests to avoid creating objects in the default namespace. An easy way for this, is to use [Kustomize](https://kustomize.io/).
 
 
 ## Deploy the Kafka Cluster
@@ -196,5 +196,5 @@ three message
 ```
 
 
-That's all for now. Basically we replicated the getting started  of Strimzi documentation but we will continue to complicate our example in the following posts.
+That's all for now. Basically we have replicated the "Getting started"  of Strimzi documentation. We will continue to complicate our example in the following posts.
 
