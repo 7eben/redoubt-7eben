@@ -173,7 +173,6 @@ And then, we create a Kafkacat producer, now without errors:
 tail -f /var/log/syslog | kafkacat -X ssl.ca.location=ca.crt -X security.protocol=ssl -b bootstrap.172.101.0.10.nip.io:443 -t syslog -z snappy
 ```
 
----
 
 And finally, we create a consumer to read the generated messages:
 
